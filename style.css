@@ -43,7 +43,9 @@ body {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
 }
-.digits , .equals,.clear{
+.digits,
+.equals,
+.clear {
   background-color: #494c49;
   padding: 5% 10%;
   border: 1px solid black;
@@ -95,13 +97,13 @@ body {
   grid-row: 3/4;
   background-color: #aaadb2;
 }
-@media (width <= 700px){
-  .container{
-  min-width: 100vw;
-  min-height: 100vh;
-}
-.inputdisplay,
-.outputdisplay{
-  font-size: 50px;
-}
+@media (width <= 700px) {
+  .container {
+    min-width: 100vw;
+    max-height: 100vh;
+  }
+  .inputdisplay,
+  .outputdisplay {
+    font-size: 50px;
+  }
 }

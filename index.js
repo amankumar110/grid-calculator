@@ -17,7 +17,7 @@ equals.addEventListener("click", () => {
 clear.addEventListener("click", () => {
   string = "";
   outputdisplay.textContent = string;
-  if (inputdisplay.textContent != "Input") {
-    inputdisplay.textContent = 0;
-  }
+  //   if (inputdisplay.textContent != "Input") {
+  //   }
+  inputdisplay.textContent = 0;
 });
