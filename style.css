@@ -99,11 +99,12 @@ body {
 }
 @media (width <= 700px) {
   .container {
-    min-width: 100vw;
-    max-height: 100vh;
+    width: 100vw;
+    height: 100vh;
   }
-  .inputdisplay,
-  .outputdisplay {
-    font-size: 50px;
-  }
+}
+.inputdisplay,
+.outputdisplay {
+  font-size: 50px;
+  overflow-x: hidden;
 }
